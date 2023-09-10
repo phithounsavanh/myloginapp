@@ -17,13 +17,13 @@ body {
 
 .section-login {
   padding: 15rem 0;
-  background-color: #eee;
+  background-color: red;
   height: 100vh;
 }
 
 .heading {
   font-size: 1.5rem;
-  color: #1d7e0c;
+  color: red;
   text-align: center;
   padding-top: 1rem;
   position: relative;
@@ -34,7 +34,7 @@ body {
   position: absolute;
   width: 5%;
   height: 1px;
-  background-color: #ff7730;
+  background-color: red;
   bottom: -1rem;
   left: 50%;
   margin-left: -1.3rem;
@@ -72,7 +72,7 @@ body {
   border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid #eee;
-  border-bottom: 3px solid #eee;
+  border-bottom: 3px solid black;
   width: 100%;
   display: block;
   transition: all 0.3s;
@@ -80,10 +80,10 @@ body {
 .form-input:focus {
   outline: none;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-  border-bottom: 3px solid #55c57a;
+  border-bottom: 3px solid black;
 }
 .form-input:focus:invalid {
-  border-bottom: 3px solid #ff7730;
+  border-bottom: 3px solid red;
 }
 .form-input::-webkit-input-placeholder {
   color: #999;
@@ -108,7 +108,7 @@ body {
   display: block;
   width: 100%;
   padding: 1.5rem 2rem;
-  background-color: #f16716;
+  background-color: red;
   color: #fff;
   font-size: 1.5rem;
   border: none;
